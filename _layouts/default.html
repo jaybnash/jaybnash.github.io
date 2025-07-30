@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="{{ page.full_name }}">
+    
+    <title>{{ page.full_name }}</title>
+    
+    <link rel="stylesheet" type="text/css" href="./stylesheet.css">
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5L34PZDJ');</script>
+    <!-- End Google Tag Manager -->
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('.button-link').forEach(function(btn) {
+          const color = btn.getAttribute('data-bg-color');
+          if (color) {
+            btn.style.backgroundColor = color;
+          }
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5L34PZDJ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <table class="container table-base">
+      <tbody>
+        <tr class="no-padding">
+          <td class="no-padding mobile-full-width">
+            <!-- Intro Section -->
+            <table class="table-base">
+              <tbody>
+                <tr class="no-padding">
+                  <td class="intro-cell">
+                    <p class="name">
+                      {{ page.full_name }}
+                    </p>
+                    {{ page.intro_content }}
+                    <p class="center-text">
+                      {% for link in page.links %}
+                      [<a href="{{ link.url }}" target="_blank">{{ link.title }}</a>]{% unless forloop.last %} &nbsp; {% endunless %}
+                      {% endfor %}
+                    </p>
+                  </td>
+                  <td class="profile-cell">
+                    <a href="{{ page.profile_photo }}">
+                      <img class="profile-image" alt="profile photo" src="{{ page.profile_photo }}">
+                    </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            
+            <!-- Research Section -->
+            <table class="table-base">
+              <tbody>
+                <tr>
+                  <td class="research-cell">
+                    <h2>Research</h2>
+                    {{ page.research_intro }}
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            
+            <!-- Research Projects -->
+            <table class="table-projects">
+              <tbody>
+                {% for project in page.projects %}
+                <tr>
+                  <td class="project-image-cell">
+                    <a href="{{ project.image }}" target="_blank">
+                      <img src="{{ project.image }}" class="project-image" alt="{{ project.title }}">
+                    </a>
+                  </td>
+                  <td class="project-content-cell">
+                    <span class="papertitle">{{ project.title }}</span>
+                    {%- if project.authors -%}
+                      {%- assign authors_list = project.authors -%}
+                      {%- assign formatted_authors = "" -%}
+                      {%- for author in authors_list -%}
+                        {%- assign author_name = author | strip -%}
+                        {%- if forloop.first == false -%}
+                          {%- assign formatted_authors = formatted_authors | append: ", " -%}
+                        {%- endif -%}
+                        {%- if author_name == page.full_name -%}
+                          {%- assign formatted_authors = formatted_authors | append: "<strong>" | append: author_name | append: "</strong>" -%}
+                        {%- elsif site.data.authors[author_name] -%}
+                          {%- assign url = site.data.authors[author_name] -%}
+                          {%- assign formatted_authors = formatted_authors | append: "<a href='" | append: url | append: "' target='_blank'>" | append: author_name | append: "</a>" -%}
+                        {%- else -%}
+                          {%- assign formatted_authors = formatted_authors | append: author_name -%}
+                        {%- endif -%}
+                      {%- endfor -%}
+                      <span class="authors-text">{{ formatted_authors }}</span>
+                    {%- endif -%}
+                    <br>
+                    <em>{{ project.publication }}</em>
+                    <br>
+                    <div class="project-links">
+                      {% for link in project.links %}
+                      {% assign link_title_lower = link.title | downcase %}
+                      {% assign current_link_color = site.data.button_colors[link_title_lower] %}
+                      {% if link_title_lower == "cite" %}
+                        <a href="cite.html?bib={{ link.url }}" target="_blank" class="button-link" data-bg-color="{{ current_link_color }}">{{ link.title }}</a>
+                      {% else %}
+                        <a href="{{ link.url }}" target="_blank" class="button-link" data-bg-color="{{ current_link_color }}">{{ link.title }}</a>
+                      {% endif %}
+                      {% endfor %}
+                    </div>
+                  </td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="footer">
+      &copy; <span class="footer-text">{{ page.full_name }}</span><br>
+      <span class="footer-text">Last Updated: {{ page.last_updated }}</span><br>
+      <span class="footer-text">Inspired by </span><a href="https://github.com/jonbarron/jonbarron.github.io" target="_blank" class="footer-text">Jon Barron's website</a>.</span>
+    </div>
+  </body>
+</html> 

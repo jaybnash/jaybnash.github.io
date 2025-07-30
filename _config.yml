@@ -1,0 +1,44 @@
+title: Author Name
+description: Academic Website Template
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# GitHub Pages settings
+github: [metadata]
+encoding: UTF-8
+kramdown:
+  input: GFM
+  hard_wrap: false
+future: true
+jailed: false
+gfm_quirks: paragraph_end
+
+# Handle .bib files with cite layout
+defaults:
+  -
+    scope:
+      path: "**.bib"
+    values:
+      layout: "cite"
+
+# Exclude from processing
+exclude:
+  - .git/
+  - .github/
+  - vendor/
+  - .bundle/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CNAME
+  - .DS_Store 
