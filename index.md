@@ -16,34 +16,56 @@ intro_content: |
 # Links
 links:
   - title: Email
-    url: mailto:your_email@example.com
+    url: jn202871@gmail.com
   - title: CV
-    url: assets/documents/your_cv.pdf
+    url: assets/documents/jay.nash.CV.pdf
   - title: GitHub
-    url: https://github.com/your_username
-  - title: Any Link
-    url: anylink
+    url: https://github.com/jaybnash
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/jaybnash
 
 # Research Introduction
 research_intro: |
   <p>
-  Describe your research interests and current projects. Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+  My research is primarily focused on, but not limited to game-playing AI, concensus mechanisms, robotic gaits, and evolutionary dynamics. Most recently I've been investigating possible alternative policy frameworks specifically suited to dertivative-free optimization. I'm currently working on my honors thesis on playing nethack with a learned policy.
   </p>
 
 # Research Projects
 projects:
-  - title: Example Research Project Title
-    image: assets/images/sample2.png
+  - title: SCOPE for Hexapod Gait Generation
+    image: assets/images/mainFlow.png
     authors:
-      - Author Name(s)
-    publication: Journal/Conference Name, Year
+      - Jim O'Connor, Jay B. Nash, Derin Gezgin, Gary B. Parker
+    publication: Pending Publication in Proceedings of the 17th International Joint Conference on Computational Intelligence - ECTA, 2025
     links:
       - title: arXiv
-        url: https://arxiv.org/abs/<your paper>
-      - title: Code
-        url: https://github.com/your_username/your_project
+        url: https://arxiv.org/pdf/2507.13539
+      #- title: Code
+        #url: https://github.com/jaybnash/speciation
       - title: Cite
-        url: sample_publication.bib
-      - title: Slides
-        url: assets/slides/samplePresentation.pdf
+        url: scope.bib
+  - title: The Evolution of Complex Attributes in a Species of Simulated Agents
+    image: assets/images/examplesight.png
+    authors:
+      - Jay B. Nash, Gary B. Parker, Jim O'Connor
+    publication: IEEE Symposium on Computational Intelligence in Artificial Life and Cooperative Intelligent Systems Companion, 2025
+    links:
+      - title: IEEEexplore
+        url: https://ieeexplore.ieee.org/abstract/document/11030988
+      - title: Code
+        url: https://github.com/jaybnash/speciation
+      - title: Cite
+        url: traits.bib
+  - title: Using Secondary Inherited Characteristics During Reproductive Choice to Replicate Allopatric Speciation
+    image: assets/images/gridimg.png
+    authors:
+      - Gary B. Parker, Jay B. Nash
+    publication: Proceedings of the 16th International Joint Conference on Computational Intelligence - ECTA, 2024
+    links:
+      - title: ScitePress
+        url: https://www.scitepress.org/Papers/2024/130179/130179.pdf
+      - title: Code
+        url: https://github.com/jaybnash/speciation
+      - title: Cite
+        url: speciation.bib
 --- 
