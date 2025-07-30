@@ -79,7 +79,7 @@ projects:
       - title: Code
         url: https://github.com/jaybnash/speciation
       - title: Slides
-        url: assets/slides/speciationslides.pdf
+        url: assets/slides/specationslides.pdf
       - title: Cite
         url: speciation.bib
 --- 
