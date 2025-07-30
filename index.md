@@ -35,7 +35,7 @@ research_intro: |
 # Research Projects
 projects:
   - title: Integer Population Compression for Resource-Constrained Evolution
-    image: assets/images/intfloat.png
+    image: assets/images/quant.png
     authors:
       - Gary B. Parker, Jay B. Nash, Jim O'Connor
     publication: In Review
