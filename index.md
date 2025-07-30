@@ -45,7 +45,7 @@ projects:
   - title: SCOPE for Hexapod Gait Generation
     image: assets/images/mainFlow.png
     authors:
-      - Jim O'Connor, <b>Jay B. Nash</b>, Derin Gezgin, Gary B. Parker
+      - Jim O'Connor, Jay B. Nash, Derin Gezgin, Gary B. Parker
     publication: Pending Publication in Proceedings of the 17th International Joint Conference on Computational Intelligence - ECTA, 2025
     links:
       - title: arXiv
