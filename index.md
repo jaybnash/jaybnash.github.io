@@ -29,7 +29,7 @@ links:
 # Research Introduction
 research_intro: |
   <p>
-  My research is primarily focused on, but not limited to game-playing AI, concensus mechanisms, robotic gaits, and evolutionary dynamics. Most recently I've been investigating possible alternative policy frameworks specifically suited to dertivative-free optimization. I'm currently working on my honors thesis on playing nethack with a learned policy.
+  My research is primarily focused on game-playing AI, concensus mechanisms, robotic gaits, and optimization algorithms. Most recently I've been investigating possible alternative policy frameworks specifically suited to dertivative-free optimization. I'm currently working on my honors thesis on playing nethack with a learned policy.
   </p>
 
 # Research Projects
