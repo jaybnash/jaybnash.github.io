@@ -78,6 +78,8 @@ projects:
         url: https://www.scitepress.org/Papers/2024/130179/130179.pdf
       - title: Code
         url: https://github.com/jaybnash/speciation
+      - title: Slides
+        url: assets/slides/speciationslides.pdf
       - title: Cite
         url: speciation.bib
 --- 
