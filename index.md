@@ -32,6 +32,11 @@ research_intro: |
 
 # Research Projects
 projects:
+  - title: Integer Population Compression for Resource-Constrained Evolution
+    image: assets/images/intfloat.png
+    authors:
+      - Gary B. Parker, <b>Jay B. Nash</b>, Jim O'Connor
+    publication: In Review
   - title: Playing Atari Space Invaders with Sparse Cosine Optimized Policy Evolution
     image: assets/images/space_invaders.png
     authors:
