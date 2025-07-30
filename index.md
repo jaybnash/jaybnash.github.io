@@ -35,12 +35,12 @@ projects:
   - title: Integer Population Compression for Resource-Constrained Evolution
     image: assets/images/intfloat.png
     authors:
-      - Gary B. Parker, <b>Jay B. Nash</b>, Jim O'Connor
+      - Gary B. Parker, Jay B. Nash, Jim O'Connor
     publication: In Review
   - title: Playing Atari Space Invaders with Sparse Cosine Optimized Policy Evolution
     image: assets/images/space_invaders.png
     authors:
-      - Jim O'Connor, <b>Jay B. Nash</b>, Derin Gezgin, Gary B. Parker
+      - Jim O'Connor, Jay B. Nash, Derin Gezgin, Gary B. Parker
     publication: In Review
   - title: SCOPE for Hexapod Gait Generation
     image: assets/images/mainFlow.png
@@ -57,7 +57,7 @@ projects:
   - title: The Evolution of Complex Attributes in a Species of Simulated Agents
     image: assets/images/examplesight.png
     authors:
-      - <b>Jay B. Nash</b>, Gary B. Parker, Jim O'Connor
+      - Jay B. Nash, Gary B. Parker, Jim O'Connor
     publication: IEEE Symposium on Computational Intelligence in Artificial Life and Cooperative Intelligent Systems Companion, 2025
     links:
       - title: IEEEexplore
@@ -71,7 +71,7 @@ projects:
   - title: Using Secondary Inherited Characteristics During Reproductive Choice to Replicate Allopatric Speciation
     image: assets/images/grid.png
     authors:
-      - Gary B. Parker, <b>Jay B. Nash</b>
+      - Gary B. Parker, Jay B. Nash
     publication: Proceedings of the 16th International Joint Conference on Computational Intelligence - ECTA, 2024
     links:
       - title: ScitePress
