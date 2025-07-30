@@ -35,12 +35,12 @@ projects:
   - title: Playing Atari Space Invaders with Sparse Cosine Optimized Policy Evolution
     image: assets/images/space_invaders.png
     authors:
-      - Jim O'Connor, <b>Jay B. Nash<\b>, Derin Gezgin, Gary B. Parker
+      - Jim O'Connor, <b>Jay B. Nash</b>, Derin Gezgin, Gary B. Parker
     publication: In Review
   - title: SCOPE for Hexapod Gait Generation
     image: assets/images/mainFlow.png
     authors:
-      - Jim O'Connor, <b>Jay B. Nash<\b>, Derin Gezgin, Gary B. Parker
+      - Jim O'Connor, <b>Jay B. Nash</b>, Derin Gezgin, Gary B. Parker
     publication: Pending Publication in Proceedings of the 17th International Joint Conference on Computational Intelligence - ECTA, 2025
     links:
       - title: arXiv
@@ -52,7 +52,7 @@ projects:
   - title: The Evolution of Complex Attributes in a Species of Simulated Agents
     image: assets/images/examplesight.png
     authors:
-      - <b>Jay B. Nash<\b>, Gary B. Parker, Jim O'Connor
+      - <b>Jay B. Nash</b>, Gary B. Parker, Jim O'Connor
     publication: IEEE Symposium on Computational Intelligence in Artificial Life and Cooperative Intelligent Systems Companion, 2025
     links:
       - title: IEEEexplore
@@ -64,7 +64,7 @@ projects:
   - title: Using Secondary Inherited Characteristics During Reproductive Choice to Replicate Allopatric Speciation
     image: assets/images/gridimg.png
     authors:
-      - Gary B. Parker, <b>Jay B. Nash<\b>
+      - Gary B. Parker, <b>Jay B. Nash</b>
     publication: Proceedings of the 16th International Joint Conference on Computational Intelligence - ECTA, 2024
     links:
       - title: ScitePress
