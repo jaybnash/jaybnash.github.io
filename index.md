@@ -62,7 +62,7 @@ projects:
       - title: Cite
         url: traits.bib
   - title: Using Secondary Inherited Characteristics During Reproductive Choice to Replicate Allopatric Speciation
-    image: assets/images/gridimg.png
+    image: assets/images/grid.png
     authors:
       - Gary B. Parker, <b>Jay B. Nash</b>
     publication: Proceedings of the 16th International Joint Conference on Computational Intelligence - ECTA, 2024
