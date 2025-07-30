@@ -16,7 +16,7 @@ intro_content: |
 # Links
 links:
   - title: Email
-    url: jn202871@gmail.com
+    url: mailto:jn202871@gmail.com
   - title: CV
     url: assets/documents/jay.nash.CV.pdf
   - title: GitHub
