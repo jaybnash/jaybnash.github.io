@@ -59,6 +59,8 @@ projects:
         url: https://ieeexplore.ieee.org/abstract/document/11030988
       - title: Code
         url: https://github.com/jaybnash/speciation
+      - title: Poster
+        url: assets/poster/ssciposter.pdf
       - title: Cite
         url: traits.bib
   - title: Using Secondary Inherited Characteristics During Reproductive Choice to Replicate Allopatric Speciation
