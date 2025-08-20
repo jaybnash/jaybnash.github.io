@@ -19,6 +19,8 @@ links:
     url: mailto:jn202871@gmail.com
   - title: CV
     url: assets/documents/jay.nash.CV.pdf
+  - title: Resume
+    url: assets/documents/jay.nash.Resume.pdf
   - title: Google Scholar
     url: https://scholar.google.com/citations?user=mporz1gAAAAJ&hl=en
   - title: GitHub
